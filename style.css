@@ -10,6 +10,8 @@ ul {
     display: flex;
     gap: 16px;
     padding: 0;
+    font-weight: 300;
+    color: #e5e7eb;
 }
 
 a {
@@ -30,7 +32,8 @@ img {
     flex-direction: column;
     background-color: #1F2937;
     color: #e5e7eb;
-    padding: 2rem 16rem 4rem 16rem;
+    padding: 1rem 13rem 4rem 13rem;
+    gap: 48px;
 
 }
 
@@ -50,6 +53,7 @@ img {
     color: #f9faf8;
     text-align: left;
     width: 400px;
+    font-weight: 700;
 }
 
 .header-links {
@@ -57,11 +61,12 @@ img {
     flex-direction: row;
     font-size: 18px;
     color: #e5e7eb;
+    font-weight: 300;
 }
 
 .hero-header {
     display: flex;
-    gap: 16px;
+    gap: 40px;
     justify-content: space-between;
     align-items: center;
 }
@@ -117,7 +122,7 @@ button {
 .random-subtext {
     display: flex;
     justify-content: space-evenly;
-    gap: 32px;
+    gap: 6rem;
 }
 
 .random-subtext-item {
@@ -145,3 +150,41 @@ button {
     font-size: 18px;
 }
 
+.cta-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6rem 10rem;
+}
+
+.cta-section {
+    display: flex;
+    background-color:#3882f6;
+    border-radius: 4px;
+    justify-content: space-evenly;
+    color: white;
+    padding: 3rem 6rem;
+    gap: 13rem;
+}
+
+.cta-textsection {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-header {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.cta-button {
+    border: white solid 1px;
+    align-self: flex-end;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    padding: 2rem;
+}
